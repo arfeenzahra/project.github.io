@@ -1,0 +1,104 @@
+.div1{
+  background: pink;
+  overflow: hidden;
+}
+::selection{
+  background: pink;
+}
+.cont{
+        max-width: initial;
+        
+        margin: auto;
+    
+}
+.wra{
+  width: 100%;
+  
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 4px 10px 1px rgba(0,0,0,0.1);
+}
+ .ti{
+  height: 90px;
+  background: #ee5c19;
+  border-radius: 5px 5px 0 0;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ .fom{
+  padding: 30px 25px 25px 25px;
+}
+ .row1{
+  height: 45px;
+  margin-bottom: 15px;
+  position: relative;
+}
+ .mail{
+  height: 100%;
+  width: 100%;
+  outline: none;
+  padding-left: 60px;
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+/* form .row input:focus{
+  border-color: #16a085;
+  box-shadow: inset 0px 0px 2px 2px rgba(26,188,156,0.25);
+} */
+.mail::placeholder{
+  color: #999;
+}
+ i{
+  position: absolute;
+  width: 37px;
+  height: 100%;
+  color: #fff;
+  font-size: 20px;
+  background: #ee5c18;
+  border: 1px solid #ee5c15;
+  border-radius: 5px 0 0 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ .pass{
+  margin: -8px 0 20px 0;
+}
+ .pass a{
+  color: #ee5c15;
+  font-size: 17px;
+  text-decoration: none;
+}
+.pass a:hover{
+  text-decoration: underline;
+}
+.button input{
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 10px;
+  background: #ee5c1f;
+  border: 1px solid #16a085;
+  cursor: pointer;
+  border-radius: 10px;
+  
+}
+
+ .signup-link{
+  text-align: center;
+  margin-top: 20px;
+  font-size: 17px;
+}
+ .signup-link a{
+  color: #ee5c1f;
+  text-decoration: none;
+}
+ .signup-link a:hover{
+  text-decoration: underline;
+}
